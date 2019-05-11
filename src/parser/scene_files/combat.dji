@@ -1,0 +1,108 @@
+F Path="assets/font/DejaVuSansMono.ttf"
+G Pos=(960,540) Prio=200 Path="assets/images/comabat_scene_test.png" Rect=(0,0,1920,1080) ID=100 Disp=1
+# Back
+# B Pos=(10,20) Key=1 Status=1 Size=(60,50) ID=900 Disp=1 Prio=3 Color=(0,0,200,255) Fc_clrl=button_cl_return Fc_ho=button_hv_return Fc_hoex=button_hvex_return Fc_clpr=button_pr_return
+# Quit
+B Pos=(1850,20) Key=1 Status=1 Size=(60,50) ID=901 Disp=1 Prio=3 Color=(200,0,0,255) Fc_clrl=button_cl_quit Fc_ho=button_hv_quit Fc_hoex=button_hvex_quit Fc_clpr=button_pr_quit
+# Key
+T Pos=(620,940) ID=41000 Disp=1 Prio=2 Sizechar=13 Str="A" Color=(25,25,25,255)
+T Pos=(770,940) ID=41001 Disp=1 Prio=2 Sizechar=13 Str="Z" Color=(25,25,25,255)
+T Pos=(920,940) ID=41002 Disp=1 Prio=2 Sizechar=13 Str="E" Color=(25,25,25,255)
+T Pos=(1070,940) ID=41003 Disp=1 Prio=2 Sizechar=13 Str="R" Color=(25,25,25,255)
+# HUD Player
+G ID=1 Pos=(1570,750) Path="assets/images/player_ph.png" Disp=1 Prio=8 Rect=(0,0,197,442)
+G ID=2 Pos=(320,750) Path="assets/images/player_ph.png" Disp=1 Prio=8 Rect=(0,0,197,442)
+T Pos=(568,805) ID=1 Disp=1 Sizechar=40 Str="Name: " Prio=2 Color=(170,170,170,255)
+T Pos=(698,805) ID=201 Disp=1 Sizechar=40 Prio=2 Color=(255,255,255,255)
+R Pos=(560,790) Size=(800,330) ID=2 Disp=1 Color=(100,100,100,150) Prio=199
+T Pos=(860,25) ID=3 Disp=1 Prio=2 Sizechar=50 Str="Turn " Color=(255,255,255,255)
+T Pos=(1010,25) ID=40000 Disp=1 Prio=2 Sizechar=50 Color=(255,255,255,255)
+# T Pos=(832,95) ID=40001 Disp=1 Prio=2 Sizechar=50 Str="Your Turn" Color=(255,255,255,255)
+# T Pos=(802,95) ID=40002 Disp=0 Prio=2 Sizechar=50 Str="Ennemy Turn" Color=(255,255,255,255)
+# Perso Status
+# HP bar
+P Pos=(573,870) Size=(773,32) ID=300 Disp=1 Prio=20 Color=(0,0,255,255) Size_Out=3 Pour=30 Color_Out=(150,150,150,255) Color_Miss=(120,20,20,255) Size=(800,50) Prio=10 MB=10 SizeMB=3 Color_MB=(0,0,0,50)
+T Pos=(912,870) ID=301 Disp=1 Prio=2 Sizechar=25 Color=(255,255,255,255)
+T Pos=(853,870) ID=3 Disp=1 Prio=2 Sizechar=25 Str="Hp " Color=(200,200,200,255)
+# Energie bar
+P Pos=(573,906) Size=(773,32) ID=400 Disp=1 Prio=20 Color=(255,0,255,255) Size_Out=3 Pour=61 Color_Out=(150,150,150,255) Color_Miss=(120,20,120,255) Size=(800,50) Prio=10 MB=10 SizeMB=3 Color_MB=(0,0,0,50)
+T Pos=(912,906) ID=401 Disp=1 Prio=2 Sizechar=25 Color=(0,0,0,255)
+T Pos=(853,906) ID=3 Disp=1 Prio=2 Sizechar=25 Str="Eng " Color=(200,200,200,255)
+# Competence 1
+B Pos=(573,958) Key=1 Status=1 Size=(100,100) ID=6000 Disp=1 Prio=3 Size_Out=3 Color_Out=(225,225,225,255) Color=(0,0,0,0) Fc_clrl=button_cl_combat_but_compt Fc_ho=button_hv_combat_but_compt Fc_hoex=button_hvex_combat_but_compt Fc_clpr=button_pr_combat_but_compt
+T Pos=(607,973) ID=6001 Disp=0 Prio=2 Sizechar=50 Str="1" Color=(255,0,0,255)
+T Pos=(575,1061) ID=6002 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+T Pos=(653,1061) ID=6003 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# Competence 2
+B Pos=(723,958) Key=1 Status=1 Size=(100,100) ID=6100 Disp=1 Prio=3 Size_Out=3 Color_Out=(225,225,225,255) Color=(0,0,0,0) Fc_clrl=button_cl_combat_but_compt Fc_ho=button_hv_combat_but_compt Fc_hoex=button_hvex_combat_but_compt Fc_clpr=button_pr_combat_but_compt
+T Pos=(757,973) ID=6101 Disp=0 Prio=2 Sizechar=50 Str="1" Color=(255,0,0,255)
+T Pos=(725,1061) ID=6102 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+T Pos=(803,1061) ID=6103 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# Competence 3
+B Pos=(873,958) Key=1 Status=1 Size=(100,100) ID=6200 Disp=1 Prio=3 Size_Out=3 Color_Out=(225,225,225,255) Color=(0,0,0,0) Fc_clrl=button_cl_combat_but_compt Fc_ho=button_hv_combat_but_compt Fc_hoex=button_hvex_combat_but_compt Fc_clpr=button_pr_combat_but_compt
+T Pos=(907,973) ID=6201 Disp=0 Prio=2 Sizechar=50 Str="1" Color=(255,0,0,255)
+T Pos=(875,1061) ID=6202 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+T Pos=(953,1061) ID=6203 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# Competence 4
+B Pos=(1023,958) Key=1 Status=1 Size=(100,100) ID=6300 Disp=1 Prio=3 Size_Out=3 Color_Out=(225,225,225,255) Color=(0,0,0,0) Fc_clrl=button_cl_combat_but_compt Fc_ho=button_hv_combat_but_compt Fc_hoex=button_hvex_combat_but_compt Fc_clpr=button_pr_combat_but_compt
+T Pos=(1057,973) ID=6301 Disp=0 Prio=2 Sizechar=50 Str="1" Color=(255,0,0,255)
+T Pos=(1025,1061) ID=6302 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+T Pos=(1103,1061) ID=6303 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# Inventaire
+T Pos=(1178,960) ID=1105 Disp=1 Prio=2 Sizechar=25 Str="Inventory" Color=(255,255,255,255)
+B Pos=(1145,955) Key=1 Status=1 Size=(200,45) ID=1105 Disp=1 Prio=3 Color=(150,150,150,150) Size_Out=3 Color_Out=(255,255,255,200) Fc_clrl=goto_inventory Fc_ho=button_hv_combat_but_aux Fc_hoex=button_hvex_combat_but_aux Fc_clpr=button_pr_combat_but_aux
+# Flee
+T Pos=(1214,1015) ID=1106 Disp=1 Prio=2 Sizechar=25 Str="Flee" Color=(255,255,255,255)
+B Pos=(1145,1010) Key=1 Status=1 Size=(200,45) ID=1106 Disp=1 Prio=3 Color=(150,150,150,150) Size_Out=3 Color_Out=(255,255,255,200) Fc_clrl=button_cl_combat_but_flee Fc_ho=button_hv_combat_but_aux Fc_hoex=button_hvex_combat_but_aux Fc_clpr=button_pr_combat_but_aux
+# Next Turn
+T Pos=(1180,815) ID=1106 Disp=1 Prio=2 Sizechar=25 Str="Next turn" Color=(255,255,255,255)
+B Pos=(1145,809) Key=1 Status=1 Size=(200,45) ID=1107 Disp=1 Prio=3 Color=(150,150,150,150) Size_Out=3 Color_Out=(255,255,255,200) Fc_clrl=button_cl_combat_but_turn Fc_ho=button_hv_combat_but_aux Fc_hoex=button_hvex_combat_but_aux Fc_clpr=button_pr_combat_but_aux
+#
+# ATH Ennemie 1300
+#
+T Pos=(1465,425) ID=1300 Disp=1 Sizechar=20 Prio=2 Color=(255,255,255,255)
+P Pos=(1465,500) Size=(200,20) ID=1301 Disp=1 Prio=20 Color=(255,0,255,255) Size_Out=2 Pour=61 Color_Out=(150,150,150,255) Color_Miss=(120,20,120,255) Size=(800,50) Prio=10 MB=5 SizeMB=1 Color_MB=(0,0,0,100)
+P Pos=(1465,478) Size=(200,20) ID=1302 Disp=1 Prio=20 Color=(0,0,255,255) Size_Out=2 Pour=100 Color_Out=(150,150,150,255) Color_Miss=(120,20,20,255) Size=(800,50) Prio=10 MB=5 SizeMB=1 Color_MB=(0,0,0,100)
+T Pos=(1465,455) ID=1303 Disp=1 Sizechar=15 Str="Lvl: " Prio=2 Color=(200,200,200,255)
+T Pos=(1505,455) ID=1304 Disp=1 Sizechar=15 Prio=2 Color=(255,255,255,255)
+# T Pos=(1533,478) ID=2 Disp=1 Sizechar=17 Str="HP " Prio=2 Color=(200,200,200,255)
+T Pos=(1510,478) ID=1305 Disp=1 Sizechar=17 Prio=2 Color=(255,255,255,255)
+T Pos=(1510,500) ID=1306 Disp=1 Sizechar=17 Prio=2 Color=(0,0,0,255)
+T Pos=(1675,475) ID=1308 Disp=0 Sizechar=17 Prio=2 Color=(0,255,0,255)
+T Pos=(1675,499) ID=1307 Disp=0 Sizechar=17 Prio=2 Color=(0,255,0,255)
+#
+# ATH you
+#
+T Pos=(220,425) ID=1200 Disp=1 Sizechar=20 Prio=2 Color=(255,255,255,255)
+P Pos=(220,500) Size=(200,20) ID=1201 Disp=1 Prio=20 Color=(255,0,255,255) Size_Out=2 Pour=61 Color_Out=(150,150,150,255) Color_Miss=(120,20,120,255) Size=(800,50) Prio=10 MB=5 SizeMB=1 Color_MB=(0,0,0,100)
+P Pos=(220,478) Size=(200,20) ID=1202 Disp=1 Prio=20 Color=(0,0,255,255) Size_Out=2 Pour=100 Color_Out=(150,150,150,255) Color_Miss=(120,20,20,255) Size=(800,50) Prio=10 MB=5 SizeMB=1 Color_MB=(0,0,0,100)
+T Pos=(220,455) ID=1203 Disp=1 Sizechar=15 Str="Lvl: " Prio=2 Color=(200,200,200,255)
+T Pos=(260,455) ID=1204 Disp=1 Sizechar=15 Prio=2 Color=(255,255,255,255)
+# T Pos=(1533,478) ID=2 Disp=1 Sizechar=17 Str="HP " Prio=2 Color=(200,200,200,255)
+T Pos=(265,478) ID=1205 Disp=1 Sizechar=17 Prio=2 Color=(255,255,255,255)
+T Pos=(265,500) ID=1206 Disp=1 Sizechar=17 Prio=2 Color=(0,0,0,255)
+T Pos=(430,475) ID=1208 Disp=0 Sizechar=17 Prio=2 Color=(0,255,0,255)
+T Pos=(430,499) ID=1207 Disp=0 Sizechar=17 Prio=2 Color=(0,255,0,255)
+G Pos=(160,478) ID=1209 Disp=0 Prio=2
+#
+P Pos=(560,125) Disp=1 Prio=10 ID=91000 Size=(800,25) Color=(255,0,255,255) Size_Out=2 Pour=61 Color_Out=(150,150,150,255) Color_Miss=(120,20,120,255) Size=(800,50) Prio=10 MB=20 SizeMB=1 Color_MB=(0,0,0,100)
+R Pos=(560,155) Size=(150,50) ID=2 Disp=1 Color=(100,100,100,150) Prio=199 Color_Out=(150,150,150,150) Size_Out=2
+#
+T Pos=(565,155) ID=1211 Disp=1 Prio=2 Str="Speed: " Sizechar=17 Prio=2 Color=(100,100,100,255)
+T Pos=(630,155) ID=1212 Disp=1 Prio=2 Sizechar=17 Prio=2 Color=(0,0,0,255)
+T Pos=(630,175) ID=1213 Disp=1 Prio=2 Sizechar=17 Prio=2 Color=(0,0,0,255)
+#
+R Pos=(1210,155) Size=(150,50) ID=2 Disp=1 Color=(100,100,100,150) Prio=199 Color_Out=(150,150,150,150) Size_Out=2
+#
+T Pos=(1215,155) ID=1311 Disp=1 Prio=2 Str="Speed: " Sizechar=17 Prio=2 Color=(100,100,100,255)
+T Pos=(1280,155) ID=1312 Disp=1 Prio=2 Sizechar=17 Prio=2 Color=(0,0,0,255)
+T Pos=(1280,175) ID=1313 Disp=1 Prio=2  Sizechar=17 Prio=2 Color=(0,0,0,255)
+#
+T Pos=(870,90) ID=10000 Disp=1 Prio=2 Sizechar=25 Str="Speed Total" Color=(210,210,210,200)
+T Pos=(560,125) ID=90001 Disp=1 Prio=2 Sizechar=20 Color=(0,0,0,255)
+# S Path="tests/allakakbar.ogg" Vol=90 ID=10
+S Path="assets/sounds/heal.ogg" Vol=90 ID=11
+S Path="assets/sounds/impact.ogg" Vol=90 ID=12
+S Path="assets/sounds/lightsaber.ogg" Vol=90 ID=13
+S Path="assets/sounds/pewpew.ogg" Vol=90 ID=14
+S Path="assets/sounds/shot.ogg" Vol=90 ID=15

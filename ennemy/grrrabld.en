@@ -1,0 +1,26 @@
+ID=5
+ID_text=10
+C ID=10 Name="Corruption" Consumtpion=0 Cooldown=3 ID_sound=3 DegatAD="14;2.5*AD" Heal="-20"
+C ID=10 Name="Bite" Consumtpion=0 Cooldown=1 ID_sound=3 DegatAD="5;2.5*AD" DegatAP="5;2.5*AP" Heal="-25"
+C ID=10 Name="Radiance" Consumtpion=0 Cooldown=0 ID_sound=3 Heal="150" Speed=2
+C
+
+HP=150
+MANA=0
+HP_MAX=150
+MANA_MAX=0
+AD=14
+AP=14
+SPEED=2
+ARMOR=30
+MAGI_RESI=100
+
+HP=0.20
+MANA=0.20
+HP_MAX=0.20
+MANA_MAX=10.0
+AD=1.10
+AP=1.20
+SPEED=0.10
+ARMOR=1.10
+MAGI_RESI=1.10

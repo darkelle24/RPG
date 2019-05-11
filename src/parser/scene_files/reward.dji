@@ -1,0 +1,37 @@
+F Path="assets/font/DejaVuSansMono.ttf"
+# Quit
+B Pos=(1850,20) Key=1 Status=1 Size=(60,50) ID=901 Disp=1 Prio=3 Color=(200,0,0,255) Fc_clrl=button_cl_quit Fc_ho=button_hv_quit Fc_hoex=button_hvex_quit Fc_clpr=button_pr_quit 
+#
+T Pos=(775,50) ID=1 Disp=1 Sizechar=100 Str="Reward" Prio=3 Color=(250,250,250,255)
+# Exp
+P Pos=(500,880) Size=(900,45) Size_Out=2 ID=600 Disp=1 Prio=3 Color=(255,255,0,255) Color_Miss=(120,120,20,255) Color_Out=(255,255,255,255) Pour=64 MB=20 SizeMB=1 Color_MB=(0,0,0,100)
+T ID=601 Pos=(450,882) Disp=1 Prio=3 Sizechar=35 Str="4" Color=(255,255,255,255)
+T ID=602 Pos=(1430,882) Disp=1 Prio=3 Sizechar=35 Str="5" Color=(255,255,255,255)
+T Pos=(912,885) ID=401 Disp=1 Prio=2 Sizechar=25 Color=(0,0,0,255)
+# Next
+B Pos=(750,970) Key=1 Status=1 Size=(400,75) ID=902 Disp=1 Prio=3 Color=(130,130,130,255) Size_Out=3 Color_Out=(255,255,255,255) Fc_clrl=but_fc_rl_reward Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward 
+T ID=602 Pos=(867,985) Disp=1 Prio=2 Sizechar=35 Str="Continue" Color=(255,255,255,255)
+# Reward xp
+R Pos=(5,280) Size=(650,545) ID=1 Disp=1 Scale=1 Color=(0,0,0,255) Prio=200 Color_Out=(255,255,255,200) Size_Out=5
+T ID=602 Pos=(230,220) Disp=1 Prio=2 Sizechar=35 Str="Reward XP" Color=(255,255,255,255)
+T ID=602 Pos=(80,320) Disp=1 Prio=2 Sizechar=25 Str="XP :" Color=(200,200,200,255)
+T ID=1000 Pos=(165,320) Disp=1 Prio=2 Sizechar=25 Color=(255,255,255,255)
+T ID=602 Pos=(50,380) Disp=1 Prio=2 Sizechar=25 Str="Turn :" Color=(200,200,200,255)
+T ID=1001 Pos=(165,380) Disp=1 Prio=2 Sizechar=25 Color=(255,255,255,255)
+T ID=602 Pos=(35,440) Disp=1 Prio=2 Sizechar=25 Str="Level :" Color=(200,200,200,255)
+T ID=1002 Pos=(165,440) Disp=1 Prio=2 Sizechar=25 Color=(255,255,255,255)
+R Pos=(55,520) Size=(550,3) ID=1 Disp=1 Scale=1 Color=(255,255,255,255) Prio=100
+T ID=602 Pos=(35,560) Disp=1 Prio=2 Sizechar=25 Str="Total :" Color=(200,200,200,255)
+T ID=1003 Pos=(165,560) Disp=1 Prio=2 Sizechar=25 Color=(255,255,255,255)
+T ID=602 Pos=(35,660) Disp=1 Prio=2 Sizechar=25 Str="Level gain :" Color=(200,200,200,255)
+T ID=1004 Pos=(240,660) Disp=1 Prio=2 Sizechar=25 Color=(255,255,255,255)
+T ID=602 Pos=(35,730) Disp=1 Prio=2 Sizechar=25 Str="Point gain :" Color=(200,200,200,255)
+T ID=1005 Pos=(240,730) Disp=1 Prio=2 Sizechar=25 Color=(255,255,255,255)
+# Other Reward
+R Pos=(1265,280) Size=(650,545) ID=1 Disp=1 Scale=1 Color=(0,0,0,255) Prio=200 Color_Out=(255,255,255,200) Size_Out=5
+T ID=602 Pos=(1465,220) Disp=1 Prio=2 Sizechar=35 Str="Other Reward" Color=(255,255,255,255)
+T ID=900 Pos=(1290,300) Disp=0 Prio=1 Sizechar=27 Str="Item :" Color=(255,255,255,255)
+T ID=901 Pos=(1400,300) Disp=0 Prio=1 Sizechar=27 Color=(255,255,255,255)
+T ID=902 Pos=(1290,350) Disp=0 Prio=1 Sizechar=12 Str="(You have too many items in your inventory, remove one item if you want this item)" Color=(255,0,0,255)
+T Pos=(1320,385) ID=903 Disp=0 Prio=2 Sizechar=25 Str="Inventory" Color=(255,255,255,255)
+B Pos=(1290,380) Key=1 Status=4 Size=(200,45) ID=903 Disp=1 Prio=3 Color=(150,150,150,150) Size_Out=3 Color_Out=(255,255,255,200) Fc_clrl=but_fc_cl_reward_inventory Fc_ho=button_hv_combat_but_aux Fc_hoex=button_hvex_combat_but_aux Fc_clpr=button_pr_combat_but_aux  

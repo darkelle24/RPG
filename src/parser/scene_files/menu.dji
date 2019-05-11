@@ -1,0 +1,26 @@
+F Path="assets/font/retro_font2.ttf"
+G ID=1 ID_text=1 Pos=(960,990) Prio=10 Disp=1 Rect=(0,0,1920,180)
+G ID=2 ID_text=1 Pos=(2880,990) Prio=10 Disp=1 Rect=(0,0,1920,180)
+G ID=3 ID_text=2 Pos=(960,920) Prio=11 Disp=1 Rect=(0,0,1920,720)
+G ID=4 ID_text=2 Pos=(2880,920) Prio=11 Disp=1 Rect=(0,0,1920,720)
+G ID=5 ID_text=3 Pos=(960,1070) Prio=12 Disp=1 Rect=(0,0,1920,1080)
+G ID=6 ID_text=3 Pos=(2880,1070) Prio=12 Disp=1 Rect=(0,0,1920,1080)
+G ID=7 ID_text=4 Pos=(960,500) Prio=12 Disp=1 Rect=(0,0,1920,1080)
+G ID=8 ID_text=5 Pos=(900,300) Prio=9 Disp=1 Rect=(0,0,1000,311)
+# Quit
+B Pos=(1850,20) Key=1 Status=1 Size=(60,50) ID=901 Disp=1 Prio=8 Color=(200,0,0,255) Fc_clrl=button_cl_quit Fc_ho=button_hv_quit Fc_hoex=button_hvex_quit Fc_clpr=button_pr_quit 
+# Options
+B ID=2 Key=1 Pos=(4,4) Prio=8 Status=1 Size=(100,100) Path="assets/icons/hud/hud_spritesheet.png" Rect=(0,100,100,100) Color=(255,255,255,255) Size_Out=4 Color_Out=(0,0,200,255) Fc_clrl=button_cl_menu_option Fc_clpr=button_pr_menu_option Fc_ho=button_hv_menu_option Fc_hoex=button_hvex_menu_option 
+# New Game
+B ID=3 Key=1 Pos=(150,750) Prio=7 Status=1 Size=(400,150) Color=(130,130,130,255) Size_Out=6 Color_Out=(200,200,200,255) Fc_clrl=button_cl_menu_new_game Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward 
+T ID=3 Pos=(166,785) Disp=1 Prio=6 Sizechar=60 Str="New Game" Color=(255,255,255,255)
+# Continue
+B ID=4 Key=1 Pos=(750,750) Prio=7 Status=1 Size=(400,150) Color=(130,130,130,255) Size_Out=6 Color_Out=(200,200,200,255) Fc_clrl=button_cl_menu_continue Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward 
+T ID=4 Pos=(773,785) Disp=1 Prio=6 Sizechar=60 Str="Continue" Color=(0,0,0,255)
+# How to play
+B ID=30 Key=1 Pos=(1300,750) Prio=7 Status=1 Size=(510,150) Color=(130,130,130,255) Size_Out=6 Color_Out=(200,200,200,255) Fc_clrl=button_cl_menu_howtoplay Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward  
+T ID=3 Pos=(1306,785) Disp=1 Prio=6 Sizechar=60 Str="How to play" Color=(255,255,255,255)
+G ID=30 Path="assets/images/howtoplay.png" Pos=(960,540) Prio=1 Disp=0 Rect=(0,0,1920,1080) 
+# Menu
+G ID=18 Pos=(950,600) Disp=1 Prio=6 Path="assets/images/v-red.png" Rect=(0,0,193,123)
+M Path="assets/music/synthwave.ogg" Vol=100 Loop=1 ID=1

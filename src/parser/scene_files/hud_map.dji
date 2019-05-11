@@ -1,0 +1,62 @@
+F Path="assets/font/DejaVuSansMono.ttf"
+G ID=18 Scale=1 Pos=(0,0) Prio=120 Disp=0
+G ID=20 Pos=(960,540) Prio=1 Disp=0 Rect=(0,0,32,48) Path="assets/cinematic/perso_cine.png"
+# Quest
+B ID=21 Pos=(1815,980) Prio=4 Status=4 Size=(100,100) Color=(0,255,0,255)
+T ID=2 Pos=(1815,980) Disp=0 Prio=3 Sizechar=20 Str="Quest" Color=(0,0,0,255)
+# Inventaire
+B ID=22000 Pos=(1816,976) Prio=4 Status=1 Size_Out=4 Color_Out=(0,0,255,255) Size=(100,100) Path="assets/icons/hud/hud_spritesheet.png" Rect=(0,0,100,100) Color=(255,255,255,255) Fc_clrl=button_cl_map_inventory Fc_clpr=button_pr_menu_option Fc_ho=button_hv_menu_option Fc_hoex=button_hvex_menu_option 
+# T ID=3 Pos=(1715,980) Disp=1 Prio=3 Sizechar=20 Str="Inventor" Color=(0,0,0,255) 
+# Stats
+B ID=23000 Pos=(1704,976) Prio=4 Status=1 Size_Out=4 Color_Out=(0,0,255,255) Size=(100,100) Path="assets/icons/hud/hud_spritesheet.png" Rect=(0,200,100,100) Color=(255,255,255,255) Fc_clrl=button_cl_map_stat  Fc_clpr=button_pr_menu_option Fc_ho=button_hv_menu_option Fc_hoex=button_hvex_menu_option 
+# T ID=4 Pos=(1615,980) Disp=1 Prio=3 Sizechar=20 Str="Stats" Color=(0,0,0,255)
+# #####Info Perso
+# Profil
+G ID=42 Pos=(100,990) Prio=4 Disp=1 Rect=(0,0,33,48) Path="assets/cinematic/perso_cine.png"
+# Rect Fond
+R Pos=(0,900) Size=(550,180) ID=2 Disp=1 Color=(100,100,100,170) Prio=199
+# Name
+T Pos=(198,905) ID=1 Disp=1 Sizechar=30 Str="Name: " Prio=3 Color=(180,180,180,255)
+T Pos=(295,905) ID=1001 Disp=1 Sizechar=30 Prio=3 Color=(255,255,255,255)
+# Vie
+P Pos=(198,960) Size=(300,30) ID=300 Disp=1 Prio=20 Color=(0,0,255,255) Size_Out=2 Pour=41 Color_Out=(255,255,255,255) Color_Miss=(120,20,20,255) Size=(800,50) Prio=10 MB=10 SizeMB=2 Color_MB=(0,0,0,100)
+T Pos=(198,960) ID=301 Disp=1 Prio=3 Sizechar=25 Color=(255,255,255,255)
+# Mana
+P Pos=(198,997) Size=(300,30) ID=400 Disp=1 Prio=20 Color=(255,0,255,255) Size_Out=2 Pour=41 Color_Out=(255,255,255,255) Color_Miss=(120,20,120,255) Size=(800,50) Prio=10 MB=10 SizeMB=2 Color_MB=(0,0,0,100)
+T Pos=(198,997) ID=401 Disp=1 Prio=3 Sizechar=25 Color=(0,0,0,255)
+# Exp
+P Pos=(198,1050) Size=(300,10) Size_Out=2 ID=600 Disp=1 Prio=3 Color=(255,255,0,255) Color_Miss=(120,120,20,255) Color_Out=(255,255,255,255) Pour=64 MB=10 SizeMB=2 Color_MB=(0,0,0,100)
+T ID=601 Pos=(170,1046) Disp=1 Prio=3 Sizechar=15 Str="4" Color=(255,255,255,255)
+T ID=602 Pos=(506,1046) Disp=1 Prio=3 Sizechar=15 Str="5" Color=(255,255,255,255)
+# Time
+# T ID=7 Pos=(0,0) Disp=1 Prio=3 Sizechar=30 Str="TIME 00:00" Color=(150,150,150,255)
+# Options
+B ID=24000 Pos=(1816,4) Prio=3 Size_Out=4 Color_Out=(0,0,255,255) Status=1 Size=(100,100) Path="assets/icons/hud/hud_spritesheet.png" Rect=(0,100,100,100) Color=(255,255,255,255) Fc_clrl=button_cl_map_pause  Fc_clpr=button_pr_menu_option Fc_ho=button_hv_menu_option Fc_hoex=button_hvex_menu_option 
+# Diag
+R Pos=(5,775) Size=(1910,300) ID=20001 Disp=0 Color=(70,70,70,250) Prio=2 Size_Out=4 Color_Out=(255,255,255,255)
+T Pos=(295,790) ID=20002 Disp=0 Sizechar=40 Prio=1 Color=(255,255,255,255)
+T Pos=(295,860) ID=20010 Disp=0 Sizechar=22 Prio=1 Color=(255,255,255,255)
+T Pos=(295,895) ID=20011 Disp=0 Sizechar=22 Prio=1 Color=(255,255,255,255)
+T Pos=(295,930) ID=20012 Disp=0 Sizechar=22 Prio=1 Color=(255,255,255,255)
+T Pos=(295,965) ID=20013 Disp=0 Sizechar=22 Prio=1 Color=(255,255,255,255)
+T Pos=(295,1000) ID=20014 Disp=0 Sizechar=22 Prio=1 Color=(255,255,255,255)
+# Quete
+T Pos=(0,390) ID=30000 Disp=1 Str="Main Quest :" Sizechar=35 Prio=1 Color=(200,200,200,200)
+T Pos=(0,440) ID=30000 Disp=1 Str="  Find Joseph ASTLEY" Sizechar=25 Prio=3 Color=(240,240,240,240) 
+T Pos=(0,475) ID=30000 Disp=1 Str="     To open the elevator door of Joseph ASTLEY" Sizechar=15 Prio=1 Color=(240,240,240,240)
+T Pos=(0,495) ID=30000 Disp=1 Str="     you need to find 20 keycards on ennemies" Sizechar=15 Prio=1 Color=(240,240,240,240)
+T Pos=(5,520) ID=30000 Disp=1 Str="    Kill ennemy : " Sizechar=16 Prio=1 Color=(255,255,255,255)
+T Pos=(175,520) ID=30001 Disp=1 Sizechar=16 Prio=3 Color=(255,100,100,255)
+# Menu pause
+T Pos=(790,50) ID=99020 Str="Pause" Disp=0 Prio=1 Color=(0,0,0,255) Sizechar=100
+R ID=99000 Pos=(0,0) Prio=2 Disp=0 Size=(1920,1080) Color=(110,110,110,230)
+B ID=99001 Pos=(745,230) Prio=1 Status=4 Size=(400,70) Color=(130,130,130,255) Size_Out=6 Color_Out=(255,255,255,255) Fc_clrl=button_cl_map_resume Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward 
+T Pos=(875,240) ID=99011 Str="Resume" Disp=0 Prio=1 Color=(0,0,0,255) Sizechar=35
+B ID=99002 Pos=(745,430) Prio=1 Status=4 Size=(400,70) Color=(130,130,130,255) Size_Out=6 Color_Out=(255,255,255,255) Fc_clrl=button_cl_map_save Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward 
+T Pos=(896,440) ID=99012 Str="Save" Disp=0 Prio=1 Color=(0,0,0,255) Sizechar=35
+B ID=99003 Pos=(745,630) Prio=1 Status=4 Size=(400,70) Color=(130,130,130,255) Size_Out=6 Color_Out=(255,255,255,255) Fc_clrl=button_cl_map_option Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward 
+T Pos=(879,640) ID=99013 Str="Option" Disp=0 Prio=1 Color=(0,0,0,255) Sizechar=35
+B ID=99004 Pos=(745,830) Prio=1 Status=4 Size=(400,70) Color=(130,130,130,255) Size_Out=6 Color_Out=(255,255,255,255) Fc_clrl=button_cl_return Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward 
+T Pos=(820,840) ID=99014 Str="Exit to menu" Disp=0 Prio=1 Color=(0,0,0,255) Sizechar=35
+B ID=99005 Pos=(745,990) Prio=1 Status=4 Size=(400,70) Color=(130,130,130,255) Size_Out=6 Color_Out=(255,255,255,255) Fc_clrl=button_cl_quit Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward 
+T Pos=(905,1000) ID=99015 Str="Exit" Disp=0 Prio=1 Color=(0,0,0,255) Sizechar=35

@@ -1,0 +1,26 @@
+ID=10
+ID_text=10
+C ID=10 Name="B4ng4r4ng" Consumtpion=100 Cooldown=3 ID_sound=3 DegatAP="10;2.5*AP"
+C ID=10 Name="L453r" Consumtpion=10 Cooldown=1 ID_sound=3 DegatAP="20;2.5*AP"
+C ID=10 Name="K1ll 3v3ryb0dy" Consumtpion=100 Cooldown=1 Id_sound=3 DegatAP="0;3*AP" DegatAD="0;3*AD"
+C ID=10 Name="4t0m1s4t10n" Consumtpion=250 Cooldown=3 ID_sound=4 DegatAP="45;1*AP" DegatAD="45" Heal="-200"
+
+HP=350
+MANA=250
+HP_MAX=350
+MANA_MAX=250
+AD=30
+AP=30
+SPEED=10
+ARMOR=20
+MAGI_RESI=15
+
+HP=0.0
+MANA=0.0
+HP_MAX=0.0
+MANA_MAX=0.0
+AD=0.0
+AP=0.0
+SPEED=0.0
+ARMOR=0.0
+MAGI_RESI=0.0

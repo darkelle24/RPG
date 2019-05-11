@@ -1,0 +1,5 @@
+Path="assets/cinematic/cinematic_background.jpg" ID=1 Rect=(0,0,1920,1080)
+Path="assets/cinematic/perso_cine.png" ID=3 Rect=(0,0,128,192)
+Path="assets/cinematic/cineone.png" ID=4 Rect=(0,0,500,450)
+Path="assets/cinematic/cinetwo.png" ID=5 Rect=(0,0,500,450)
+Path="assets/cinematic/cinethree.png" ID=6 Rect=(0,0,500,450)

@@ -1,0 +1,4 @@
+Name="Firewall" Consumtpion=15 Cooldown=1 ID_text=8 ID_sound=11 Heal="15;2*AP" Speed=1
+Name="Neon Instinct" Consumtpion=10 Cooldown=0 ID_text=5 ID_sound=13 DegatAP="10;2*AP" Heal="5;0.2*AP"
+Name="Memory Leak" Consumtpion=30 Cooldown=3 ID_text=6 ID_sound=14 DegatAD="25;3*AP" Speed=2
+Name="Trojan" Consumtpion=35 Cooldown=1 ID_text=7 ID_sound=13 DegatAP="10;5*AD" Heal="0;-0.2*missing_hp"

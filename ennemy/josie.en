@@ -1,0 +1,26 @@
+ID=9
+ID_text=10
+C ID=10 Name="Detection" Consumtpion=15 Cooldown=0 ID_sound=6 Heal="5;1.0*AP"
+C ID=10 Name="Pen throwing" Consumtpion=20 Cooldown=1 ID_sound=7 DegatAD="15;1*AD" Speed=3
+C ID=10 Name="Dactilography" Consumtpion=10 Cooldown=1 ID_sound=8 DegatAP="15;1*AP"
+C ID=10 Name="Deadly nails" Consumtpion=35 Cooldown=2 ID_sound=9  DegatAP="15;1*AP" DegatAD"10;1*AP"
+
+HP=250
+MANA=200
+HP_MAX=250
+MANA_MAX=200
+AD=25
+AP=25
+SPEED=8
+ARMOR=15
+MAGI_RESI=15
+
+HP=0.0
+MANA=0.0
+HP_MAX=0.0
+MANA_MAX=0.0
+AD=0.0
+AP=0.0
+SPEED=0.0
+ARMOR=0.0
+MAGI_RESI=0.0

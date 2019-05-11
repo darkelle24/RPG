@@ -1,0 +1,11 @@
+F Path="assets/font/retro_font2.ttf"
+# Background
+G ID=1 ID_text=1 Pos=(960,540) Prio=5 Disp=1 Rect=(0,0,1920,1080) 
+# Perso
+G ID=3 ID_text=3 Pos=(50,950) Prio=4 Disp=1 Rect=(96,96,32,48)
+# Text_Cine
+G ID=5 ID_text=4 Pos=(800,200) Prio=2 Disp=0 Rect=(0,0,500,450)
+G ID=6 ID_text=5 Pos=(800,500) Prio=2 Disp=0 Rect=(0,0,500,450)
+G ID=7 ID_text=6 Pos=(800,800) Prio=2 Disp=0 Rect=(0,0,500,450)
+# Skip
+T ID=4 Pos=(850,1020) Disp=1 Prio=2 Sizechar=20 Str="Press Space To Skip" Color=(255,255,255,255)

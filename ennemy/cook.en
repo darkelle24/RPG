@@ -1,0 +1,26 @@
+ID=2
+ID_text=10
+C ID=10 Name="Tomathrow" Consumtpion=5 Cooldown=0 ID_sound=3 DegatAP="1;2.5*AD"
+C ID=10 Name="Deadly Pickles" Consumtpion=15 Cooldown=1 ID_sound=3 DegatAD="10;2.5*AP"
+C ID=10 Name="What the fork" Consumtpion=1 Cooldown=0 Heal="1" Speed=-1
+C
+
+HP=50
+MANA=100
+HP_MAX=60
+MANA_MAX=100
+AD=20
+AP=15
+SPEED=8
+ARMOR=5
+MAGI_RESI=0
+
+HP=0.10
+MANA=0.20
+HP_MAX=0.10
+MANA_MAX=10.0
+AD=2.10
+AP=2.20
+SPEED=0.10
+ARMOR=1.10
+MAGI_RESI=1.10

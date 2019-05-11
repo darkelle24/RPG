@@ -1,0 +1,26 @@
+ID=3
+ID_text=10
+C ID=10 Name="L453r" Consumtpion=10 Cooldown=1 ID_sound=3 DegatAP="20;2.5*AP"
+C ID=10 Name="N4n0b10t3" Consumtpion=40 Cooldown=3 Id_sound=4 Heal="90"
+C ID=10 Name="53lf-d3struct" Consumtpion=0 Speed=20 Cooldown=5 Id_sound=5 DegatAD="40" Heal="-999"
+C
+
+HP=90
+MANA=90
+HP_MAX=90
+MANA_MAX=90
+AD=12
+AP=12
+SPEED=10
+ARMOR=12
+MAGI_RESI=5
+
+HP=0.10
+MANA=0.20
+HP_MAX=0.10
+MANA_MAX=10.0
+AD=1.10
+AP=1.20
+SPEED=0.10
+ARMOR=1.10
+MAGI_RESI=1.10

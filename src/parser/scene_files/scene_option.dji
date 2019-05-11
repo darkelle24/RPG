@@ -1,0 +1,22 @@
+F Path="assets/font/DejaVuSansMono.ttf"
+T Pos=(765,50) ID=1 Disp=1 Sizechar=100 Str="Options" Color=(255,255,255,255) Prio=3
+# Back
+B Pos=(10,20) Key=1 Status=1 Size=(60,50) ID=900 Disp=1 Prio=3 Color=(0,0,200,255) Fc_clrl=button_cl_return Fc_ho=button_hv_return Fc_hoex=button_hvex_return Fc_clpr=button_pr_return
+# Quit
+B Pos=(1850,20) Key=1 Status=1 Size=(60,50) ID=901 Disp=1 Prio=3 Color=(200,0,0,255) Fc_clrl=button_cl_quit Fc_ho=button_hv_quit Fc_hoex=button_hvex_quit Fc_clpr=button_pr_quit
+T Pos=(50,400) ID=2 Disp=1 Sizechar=35 Str="FPS :" Prio=3 Color=(255,255,255,255)
+t Pos=(200,401) ID=300 Disp=1 Color=(255,255,255,255) Color_Cursor=(0,0,255,255) Prio=2 Sizechar=35 Size_Cursor=6 Lenght_max=3 Offset=2 Size_RecOut=5 Color_RecOut=(255,255,255,200) Color_Rec=(0,0,0,0) Offset_Rec=10 Bool_rect=1
+# Save
+B Pos=(735,980) ID=1011 Key=1 Status=1 Disp=1 Size=(450,75) Prio=4 Color=(170,170,170,255) Size_Out=4 Color_Out=(255,255,255,255) Fc_clrl=button_cl_save_opt Fc_clpr=button_pr_save_opt Fc_hoex=button_hvex_save_opt Fc_ho=button_hv_save_opt 
+T Pos=(903,990) ID=1011 Disp=1 Sizechar=45 Str="Save" Color=(0,0,0,255) Prio=3
+# Volume Music
+V Pos=(390,510) ID=201 Prio=20 Vol=50 Disp=1 Size_Out=5 Color_Out=(200,200,200,255) Color_Act=(0,255,0,255) Color_Unact=(100,100,100,200) Size=(550,50)
+T Pos=(50,510) ID=4 Disp=1 Sizechar=35 Str="Music volume :" Prio=3 Color=(255,255,255,255)
+T Pos=(980,510) ID=101 Disp=1 Sizechar=35 Prio=3 Color=(255,255,255,255)
+# Volume Sound
+V Pos=(390,610) ID=202 Prio=20 Vol=50 Disp=1 Size_Out=5 Color_Out=(200,200,200,255) Color_Act=(0,0,255,255) Color_Unact=(100,100,100,200) Size=(550,50)
+T Pos=(50,610) ID=4 Disp=1 Sizechar=35 Str="Sound volume:" Prio=3 Color=(255,255,255,255)
+T Pos=(980,610) ID=102 Disp=1 Sizechar=35 Prio=3 Color=(255,255,255,255)
+# Change Keyboard
+T Pos=(99,277) ID=1010 Disp=0 Sizechar=45 Str="Key Binding" Color=(0,0,0,255) Prio=2
+B Pos=(50,270) Size=(400,75) ID=1010 Key=0 Prio=3 Status=4 Disp=1 Color=(170,170,170,255) Size_Out=3 Color_Out=(255,255,255,255) Fc_clpr=button_pr_save_opt Fc_hoex=button_hvex_save_opt Fc_ho=button_hv_save_opt Fc_clrl=button_rl_key_opt

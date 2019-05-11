@@ -1,0 +1,226 @@
+F Path="assets/font/DejaVuSansMono.ttf"
+T Pos=(715,50) ID=1 Disp=1 Sizechar=100 Str="Inventory" Color=(255,255,255,255) Prio=1 
+R Pos=(5,200) Size=(1910,875) ID=1 Disp=1 Scale=1 Color=(0,0,0,255) Prio=200 Color_Out=(255,255,255,200) Size_Out=5 
+G ID=1 Pos=(250,500) Path="assets/images/player_ph.png" Disp=1 Prio=8 Rect=(0,0,197,442)
+T Pos=(17,205) ID=1 Disp=1 Sizechar=40 Str="Name: " Prio=2 Color=(180,180,180,255)
+T Pos=(150,205) ID=1000000 Disp=1 Sizechar=40 Prio=2 Color=(255,255,255,255)
+R Pos=(500,200) Size=(5,875) ID=2 Disp=1 Color=(255,255,255,200) Prio=199 
+R Pos=(505,750) Size=(1410,5) ID=2 Disp=1 Color=(255,255,255,200) Prio=199 
+# Back
+B Pos=(10,20) Key=1 Status=1 Size=(60,50) ID=900 Disp=1 Prio=3 Color=(0,0,200,255) Fc_clrl=button_cl_return Fc_ho=button_hv_return Fc_hoex=button_hvex_return Fc_clpr=button_pr_return 
+# Quit
+B Pos=(1850,20) Key=0 Status=4 Size=(60,50) ID=901 Disp=1 Prio=3 Color=(200,0,0,255) Fc_clrl=button_cl_quit Fc_ho=button_hv_quit Fc_hoex=button_hvex_quit Fc_clpr=button_pr_quit 
+# Item
+#
+B Pos=(520,213) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=201 Prio=50 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(566,257) ID=201 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(615,213) ID=201 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(615,275) ID=301 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(690,275) ID=401 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(615,247) ID=1001 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(675,247) ID=1101 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(900,240) ID=1201 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(520,321) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=202 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(566,365) ID=202 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(615,321) ID=202 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(615,383) ID=302 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(690,383) ID=402 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(615,355) ID=1002 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(675,355) ID=1102 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(900,348) ID=1202 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(520,429) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=203 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(566,473) ID=203 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(615,429) ID=203 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(615,491) ID=303 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(690,491) ID=403 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(615,463) ID=1003 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(675,463) ID=1103 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(900,456) ID=1203 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(520,537) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=204 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(566,581) ID=204 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(615,537) ID=204 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(615,599) ID=304 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(690,599) ID=404 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(615,571) ID=1004 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(675,571) ID=1104 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(900,564) ID=1204 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(520,645) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=205 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(566,689) ID=205 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(615,645) ID=205 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(615,709) ID=305 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(690,709) ID=405 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(615,679) ID=1005 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(675,679) ID=1105 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(900,672) ID=1205 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+# B Pos=(520,753) Size_Out=5 Color_Out=(255,255,255,200) Status=1 Size=(445,90) ID=5 Disp=1 Prio=49 Color=(255,255,255,100)
+# B Pos=(520,861) Size_Out=5 Color_Out=(255,255,255,200) Status=1 Size=(445,90) ID=5 Disp=1 Prio=49 Color=(255,255,255,100)
+# B Pos=(520,969) Size_Out=5 Color_Out=(255,255,255,200) Status=1 Size=(445,90) ID=5 Disp=1 Prio=49 Color=(255,255,255,100)
+# 
+B Pos=(988,213) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=206 Prio=50 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1034,257) ID=206 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1083,213) ID=206 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,275) ID=306 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1158,275) ID=406 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,247) ID=1006 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1143,247) ID=1106 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1368,240) ID=1206 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(988,321) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=207 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1034,365) ID=207 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1083,321) ID=207 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,383) ID=307 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1158,383) ID=407 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,355) ID=1007 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1143,355) ID=1107 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1368,348) ID=1207 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(988,429) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=208 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1034,473) ID=208 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1083,429) ID=208 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,491) ID=308 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1158,491) ID=408 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,463) ID=1008 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1143,463) ID=1108 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1368,456) ID=1208 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(988,537) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=209 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1034,581) ID=209 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1083,537) ID=209 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,599) ID=309 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1158,599) ID=409 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,571) ID=1009 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1143,571) ID=1109 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1368,564) ID=1209 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(988,645) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=210 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1034,689) ID=210 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1083,645) ID=210 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,709) ID=310 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1158,709) ID=410 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1083,679) ID=1010 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1143,679) ID=1110 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1368,672) ID=1210 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+# B Pos=(988,753) Size_Out=5 Color_Out=(255,255,255,200) Status=1 Size=(445,90) ID=5 Disp=1 Prio=49 Color=(255,255,255,100)
+# B Pos=(988,861) Size_Out=5 Color_Out=(255,255,255,200) Status=1 Size=(445,90) ID=5 Disp=1 Prio=49 Color=(255,255,255,100)
+# B Pos=(988,969) Size_Out=5 Color_Out=(255,255,255,200) Status=1 Size=(445,90) ID=5 Disp=1 Prio=49 Color=(255,255,255,100)
+#
+B Pos=(1455,213) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=211 Prio=50 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1501,257) ID=211 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1550,213) ID=211 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,275) ID=311 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1625,275) ID=411 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,247) ID=1011 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1610,247) ID=1111 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1835,240) ID=1211 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(1455,321) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=212 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1501,365) ID=212 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1550,321) ID=212 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,383) ID=312 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1625,383) ID=412 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,355) ID=1012 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1610,355) ID=1112 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1835,348) ID=1212 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(1455,429) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=213 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1501,473) ID=213 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1550,429) ID=213 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,491) ID=313 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1625,491) ID=413 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,463) ID=1013 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1610,463) ID=1113 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1835,456) ID=1213 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(1455,537) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=214 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1501,581) ID=214 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1550,537) ID=214 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,599) ID=314 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1625,599) ID=414 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,571) ID=1014 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1610,571) ID=1114 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1835,564) ID=1214 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+B Pos=(1455,645) Size_Out=5 Color_Out=(255,255,255,200) Status=4 Size=(445,90) ID=215 Prio=49 Color=(255,255,255,100) Fc_ho=button_hv_item Fc_hoex=button_hvex_item Fc_clpr=button_pr_item Fc_clrl=button_cl_item 
+G Pos=(1501,689) ID=215 Disp=0 Prio=3 Rect=(0,0,75,75)
+T Pos=(1550,645) ID=215 Disp=0 Sizechar=25 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,709) ID=315 Disp=0 Sizechar=20 Prio=3 Str="Stack:" Color=(200,200,200,255)
+T Pos=(1625,709) ID=415 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1550,679) ID=1015 Disp=0 Sizechar=20 Prio=3 Str="Type:" Color=(200,200,200,255)
+T Pos=(1610,679) ID=1115 Disp=0 Sizechar=20 Prio=3 Color=(255,255,255,255)
+T Pos=(1835,672) ID=1215 Disp=0 Sizechar=50 Prio=3 Color=(0,0,255,255) Str="E"
+#
+# B Pos=(1455,753) Size_Out=5 Color_Out=(255,255,255,200) Status=1 Size=(445,90) ID=5 Disp=1 Prio=49 Color=(255,255,255,100)
+# B Pos=(1455,861) Size_Out=5 Color_Out=(255,255,255,200) Status=1 Size=(445,90) ID=5 Disp=1 Prio=49 Color=(255,255,255,100)
+# B Pos=(1455,969) Size_Out=5 Color_Out=(255,255,255,200) Status=1 Size=(445,90) ID=5 Disp=1 Prio=49 Color=(255,255,255,100)
+# HP bar
+P Pos=(90,800) Size=(400,20) ID=300 Disp=1 Prio=20 Color=(0,0,255,255) Size_Out=3 Pour=41 Color_Out=(255,255,255,255) Color_Miss=(120,20,20,255) Size=(800,50) Prio=10 MB=20 SizeMB=3 Color_MB=(0,0,0,100)
+T Pos=(10,791) ID=3 Disp=1 Prio=3 Sizechar=25 Str="Hp  :" Color=(180,180,180,255)
+# Energie bar
+P Pos=(90,850) Size=(400,20) ID=400 Disp=1 Prio=20 Color=(255,0,255,255) Size_Out=3 Pour=41 Color_Out=(255,255,255,255) Color_Miss=(120,20,120,255) Size=(800,50) Prio=10 MB=20 SizeMB=3 Color_MB=(0,0,0,100)
+T Pos=(10,841) ID=4 Disp=1 Prio=3 Sizechar=25 Str="Eng :" Color=(180,180,180,255)
+# Lvl
+T Pos=(10,911) ID=5 Disp=1 Prio=3 Sizechar=25 Str="Lvl :" Color=(180,180,180,255)
+T Pos=(100,912) ID=6 Disp=1 Prio=4 Sizechar=25 Str="18" Color=(255,255,255,255)
+# Exp
+T Pos=(10,956) ID=7 Disp=1 Prio=3 Sizechar=25 Str="Exp :" Color=(180,180,180,255)
+P Pos=(90,965) Size=(400,20) ID=500 Disp=1 Prio=20 Color=(30,200,30,255) Size_Out=3 Pour=80 Color_Out=(255,255,255,255) Color_Miss=(20,70,20,255) Size=(800,50) Prio=10 MB=20 SizeMB=3 Color_MB=(0,0,0,100)
+# Money
+T Pos=(10,1015) ID=8 Disp=0 Prio=3 Sizechar=25 Str="Money :" Color=(180,180,180,255)
+T Pos=(130,1016) ID=9 Disp=0 Prio=2 Sizechar=25 Str="2000000" Color=(255,255,255,255)
+# Status
+T Pos=(520,770) Prio=1 Color=(255,255,255,255) ID=601 Disp=1 Str="Status :" Sizechar=40 
+T Pos=(670,770) Prio=1 Color=(255,255,255,255) ID=701 Disp=0 Sizechar=40 
+#
+T Pos=(520,850) Prio=2 Color=(180,180,180,255) ID=602 Disp=1 Str="HP :" Sizechar=30 
+T Pos=(600,850) Prio=2 Color=(255,255,255,255) ID=702 Disp=1 Sizechar=30 
+T Pos=(600,850) Prio=2 Color=(255,255,255,255) ID=802 Disp=0 Sizechar=30 
+#
+T Pos=(520,920) Prio=2 Color=(180,180,180,255) ID=603 Disp=1 Str="HP Max :" Sizechar=30 
+T Pos=(670,920) Prio=2 Color=(255,255,255,255) ID=703 Disp=1 Sizechar=30 
+T Pos=(670,920) Prio=2 Color=(255,255,255,255) ID=803 Disp=0 Sizechar=30
+#
+T Pos=(520,990) Prio=2 Color=(180,180,180,255) ID=604 Disp=1 Str="AD :" Sizechar=30 
+T Pos=(600,990) Prio=2 Color=(255,255,255,255) ID=704 Disp=1 Sizechar=30 
+T Pos=(600,990) Prio=2 Color=(255,255,255,255) ID=804 Disp=0 Sizechar=30 
+#
+T Pos=(988,850) Prio=2 Color=(180,180,180,255) ID=605 Disp=1 Str="Eng :" Sizechar=30 
+T Pos=(1085,850) Prio=2 Color=(255,255,255,255) ID=705 Disp=1 Sizechar=30 
+T Pos=(1085,850) Prio=2 Color=(255,255,255,255) ID=805 Disp=0 Sizechar=30 
+#
+T Pos=(988,920) Prio=2 Color=(180,180,180,255) ID=606 Disp=1 Str="Eng Max :" Sizechar=30 
+T Pos=(1155,920) Prio=2 Color=(255,255,255,255) ID=706 Disp=1 Sizechar=30 
+T Pos=(1155,920) Prio=2 Color=(255,255,255,255) ID=806 Disp=0 Sizechar=30 
+#
+T Pos=(988,990) Prio=2 Color=(180,180,180,255) ID=607 Disp=1 Str="AP :" Sizechar=30 
+T Pos=(1065,990) Prio=2 Color=(255,255,255,255) ID=707 Disp=1 Sizechar=30 
+T Pos=(1065,990) Prio=2 Color=(255,255,255,255) ID=807 Disp=0 Sizechar=30 
+#
+T Pos=(1495,850) Prio=2 Color=(180,180,180,255) ID=608 Disp=1 Str="Armor :" Sizechar=30 
+T Pos=(1625,850) Prio=2 Color=(255,255,255,255) ID=708 Disp=1 Sizechar=30 
+T Pos=(1625,850) Prio=2 Color=(255,255,255,255) ID=808 Disp=0 Sizechar=30 
+#
+T Pos=(1495,920) Prio=2 Color=(180,180,180,255) ID=609 Disp=1 Str="MR :" Sizechar=30 
+T Pos=(1575,920) Prio=2 Color=(255,255,255,255) ID=709 Disp=1 Sizechar=30 
+T Pos=(1575,920) Prio=2 Color=(255,255,255,255) ID=809 Disp=0 Sizechar=30 
+#
+T Pos=(1495,990) Prio=2 Color=(180,180,180,255) ID=610 Disp=1 Str="SP :" Sizechar=30 
+T Pos=(1575,990) Prio=2 Color=(255,255,255,255) ID=710 Disp=1 Sizechar=30 
+T Pos=(1575,990) Prio=2 Color=(255,255,255,255) ID=810 Disp=0 Sizechar=30 
+#
+# Suppr
+B Pos=(1845,110) Key=1 Size=(70,70) Size_Out=5 Color_Out=(255,255,255,255) Color=(255,255,255,255) Status=1 Path="assets/images/trash_can.png" Rect=(0,0,75,75) Prio=1 ID=9999 Fc_clrl=button_cl_inventory_trash Fc_clpr=button_pr_inventory_trash Fc_ho=button_ho_inventory_trash Fc_hoex=button_hoex_inventory_trash_can  
+# Body Holder
+R Pos=(210,280) ID=2001 Disp=1 Size=(75,75) Prio=3 Color=(50,50,50,115) Color_Out=(200,200,200,255) Size_Out=1 
+G Pos=(210,280) Prio=2 Disp=1 ID=2001 
+R Pos=(210,390) ID=2002 Disp=1 Size=(75,75) Prio=3 Color=(50,50,50,115) Color_Out=(200,200,200,255) Size_Out=1 
+G Pos=(210,390) Prio=2 Disp=1 ID=2002 
+R Pos=(210,590) ID=2003 Disp=1 Size=(75,75) Prio=3 Color=(50,50,50,115) Color_Out=(200,200,200,255) Size_Out=1 
+G Pos=(210,590) Prio=2 Disp=1 ID=2003 
+R Pos=(300,470) ID=2004 Disp=1 Size=(75,75) Prio=3 Color=(50,50,50,115) Color_Out=(200,200,200,255) Size_Out=1 
+G Pos=(300,470) Prio=2 Disp=1 ID=2004 

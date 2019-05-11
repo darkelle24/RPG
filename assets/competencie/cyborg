@@ -1,0 +1,4 @@
+Name="Neon Blade" Consumtpion=10 Cooldown=1 ID_text=13 ID_sound=11 DegatAD="20;3*AD"
+Name="Laser Eyes" Consumtpion=15 Cooldown=0 ID_text=9 ID_sound=14 DegatAP="15;5*AP"
+Name="Rhino Walk" Consumtpion=15 Cooldown=2 ID_text=12 ID_sound=12 Heal="0;0.5*missing_hp" Speed=3
+Name="Transcendence" Consumtpion=-9999 Cooldown=13 ID_text=10 ID_sound=16 Heal="-20;-0.8*AD" Speed=-30

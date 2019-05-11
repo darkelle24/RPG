@@ -1,0 +1,5 @@
+Path="assets/parallax_menu/wireframe_floor.png" ID=1 Rect=(0,0,1920,180)
+Path="assets/parallax_menu/background_city.png" ID=2 Rect=(0,0,1920,760)
+Path="assets/parallax_menu/background_city_two.png" ID=3 Rect=(0,0,1920,1080)
+Path="assets/parallax_menu/background_retro.png" ID=4 Rect=(0,0,1920,1080)
+Path="assets/parallax_menu/logo.png" ID=5 Rect=(0,0,1000,311)

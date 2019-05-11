@@ -1,0 +1,4 @@
+Name="420 no-scope" Consumtpion=15 Cooldown=2 ID_text=4 ID_sound=9 DegatAD="20;2.5*AD"
+Name="Kiss Kiss Bangbang" Consumtpion=50 Cooldown=4 ID_text=3 ID_sound=13 DegatAP="15;3*AP" DegatAD="15;3*AD" Heal="15;0.2*missing_hp" Speed=5
+Name="Neon Dash" Consumtpion=10 Cooldown=3 ID_text=2 ID_sound=14 Speed=-5
+Name="High Kick" Consumtpion=1 Cooldown=1 ID_text=1 ID_sound=12 DegatAD="40;0.6*AD"

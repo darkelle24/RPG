@@ -1,0 +1,26 @@
+ID=8
+ID_text=10
+C ID=10 Name="Deadly nails" Consumtpion=350 Cooldown=2 ID_sound=9  DegatAP="15;12*AP" DegatAD"10;1*AP" Speed=1
+C ID=10 Name="B4ng4r4ng" Consumtpion=500 Cooldown=1 ID_sound=3 DegatAP="10;1.5*AP" Speed=1
+C ID=10 Name="Killer Queen" Consumtpion=250 Cooldown=2 Id_sound=3 DegatAP="0;4*AP" Heal="50" Speed=2
+C ID=10 Name="Tomathrow" Consumtpion=50 Cooldown=0 ID_sound=3 DegatAP="10;2.5*AD" Speed=1
+
+HP=1000
+MANA=1000
+HP_MAX=1000
+MANA_MAX=1000
+AD=50
+AP=50
+SPEED=10
+ARMOR=50
+MAGI_RESI=50
+
+HP=0.0
+MANA=0.0
+HP_MAX=0.0
+MANA_MAX=0.0
+AD=0.0
+AP=0.0
+SPEED=0.0
+ARMOR=0.0
+MAGI_RESI=0.0

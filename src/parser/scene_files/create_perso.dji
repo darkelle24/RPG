@@ -1,0 +1,59 @@
+F Path="assets/font/DejaVuSansMono.ttf"
+# Quit
+B Pos=(1850,20) Key=1 Status=1 Size=(60,50) ID=901 Disp=1 Prio=3 Color=(200,0,0,255) Fc_clrl=button_cl_quit Fc_ho=button_hv_quit Fc_hoex=button_hvex_quit Fc_clpr=button_pr_quit 
+# 
+T Pos=(600,50) ID=1 Disp=1 Sizechar=100 Str="Create Player" Prio=3 Color=(250,250,250,255)
+# Titre
+T Pos=(30,250) ID=1 Disp=1 Sizechar=40 Str="Player Name (max 14) :" Prio=3 Color=(170,170,170,255)
+t Pos=(825,253) ID=350 Disp=1 Color=(255,255,255,255) Color_Cursor=(0,0,255,255) Prio=2 Sizechar=35 Size_Cursor=6 Lenght_max=14 Offset=2 Size_RecOut=5 Color_RecOut=(255,255,255,200) Color_Rec=(0,0,0,0) Offset_Rec=10 Bool_rect=1 
+# Save
+B Pos=(735,980) ID=1051 Key=1 Status=1 Disp=1 Size=(450,75) Prio=4 Color=(130,130,130,255) Size_Out=4 Color_Out=(255,255,255,255) Fc_clrl=button_fc_cl_create_player_save Fc_ho=but_fc_hv_reward Fc_hoex=but_fc_hvex_reward Fc_clpr=but_fc_pr_reward 
+T Pos=(903,990) ID=1011 Disp=1 Sizechar=45 Str="Save" Color=(0,0,0,255) Prio=3 
+# Class
+T Pos=(30,400) ID=10000 Disp=1 Sizechar=65 Str="Class :" Color=(200,200,200,255) Prio=3 
+T Pos=(350,400) ID=10001 Disp=1 Sizechar=65 Color=(255,255,255,255) Prio=3 
+B Pos=(748,850) ID=2100 Key=1 Status=1 Disp=1 Size=(100,100) Prio=4 Path="assets/icons/classes/classes_spritesheet.png" Rect=(0,200,100,100) Color=(255,255,255,255) Size_Out=4 Color_Out=(255,255,255,255) Fc_clrl=button_fc_cl_create_player_choose_class Fc_ho=button_fc_hv_create_player_choose_class Fc_hoex=button_fc_hvex_create_player_choose_class Fc_clpr=button_fc_pr_create_player_choose_class 
+B Pos=(910,850) ID=2101 Key=1 Status=1 Disp=1 Size=(100,100) Prio=4 Path="assets/icons/classes/classes_spritesheet.png" Rect=(0,0,100,100) Color=(255,255,255,255) Size_Out=4 Color_Out=(255,255,255,255) Fc_clrl=button_fc_cl_create_player_choose_class Fc_ho=button_fc_hv_create_player_choose_class Fc_hoex=button_fc_hvex_create_player_choose_class Fc_clpr=button_fc_pr_create_player_choose_class 
+B Pos=(1070,850) ID=2102 Key=1 Status=1 Disp=1 Size=(100,100) Prio=4 Path="assets/icons/classes/classes_spritesheet.png" Rect=(0,100,100,100) Color=(255,255,255,255) Size_Out=4 Color_Out=(255,255,255,255) Fc_clrl=button_fc_cl_create_player_choose_class Fc_ho=button_fc_hv_create_player_choose_class Fc_hoex=button_fc_hvex_create_player_choose_class Fc_clpr=button_fc_pr_create_player_choose_class 
+#
+T Pos=(50,590) Prio=2 Color=(180,180,180,255) ID=6000 Disp=1 Str="HP Max :" Sizechar=30 
+T Pos=(200,590) Prio=2 Color=(255,255,255,255) ID=6001 Disp=1 Sizechar=30 
+#
+T Pos=(30,660) Prio=2 Color=(180,180,180,255) ID=6000 Disp=1 Str="Eng Max :" Sizechar=30 
+T Pos=(200,660) Prio=2 Color=(255,255,255,255) ID=6002 Disp=1 Sizechar=30 
+#
+T Pos=(120,730) Prio=2 Color=(180,180,180,255) ID=6000 Disp=1 Str="AP :" Sizechar=30 
+T Pos=(200,730) Prio=2 Color=(255,255,255,255) ID=6003 Disp=1 Sizechar=30 
+#
+T Pos=(120,800) Prio=2 Color=(180,180,180,255) ID=6000 Disp=1 Str="AD :" Sizechar=30 
+T Pos=(200,800) Prio=2 Color=(255,255,255,255) ID=6004 Disp=1 Sizechar=30  
+#
+T Pos=(65,870) Prio=2 Color=(180,180,180,255) ID=6000 Disp=1 Str="Armor :" Sizechar=30 
+T Pos=(200,870) Prio=2 Color=(255,255,255,255) ID=6005 Disp=1 Sizechar=30 
+#
+T Pos=(120,940) Prio=2 Color=(180,180,180,255) ID=6000 Disp=1 Str="MR :" Sizechar=30 
+T Pos=(200,940) Prio=2 Color=(255,255,255,255) ID=6006 Disp=1 Sizechar=30 
+#
+T Pos=(120,1010) Prio=2 Color=(180,180,180,255) ID=6000 Disp=1 Str="SP :" Sizechar=30 
+T Pos=(200,1010) Prio=2 Color=(255,255,255,255) ID=6007 Disp=1 Sizechar=30 
+# Competence1
+# B Pos=(1253,508) Key=1 Status=1 Size=(100,100) ID=8000 Disp=1 Prio=3 Size_Out=3 Color_Out=(225,225,225,255) Color=(0,0,0,0) 
+# T Pos=(1253,618) ID=8001 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# T Pos=(1340,618) ID=8002 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# Competence 2
+# B Pos=(1443,508) Key=1 Status=1 Size=(100,100) ID=8100 Disp=1 Prio=3 Size_Out=3 Color_Out=(225,225,225,255) Color=(0,0,0,0) 
+# T Pos=(1443,618) ID=8101 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# T Pos=(1530,618) ID=8102 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# Competence 3
+# B Pos=(1623,508) Key=1 Status=1 Size=(100,100) ID=8200 Disp=1 Prio=3 Size_Out=3 Color_Out=(225,225,225,255) Color=(0,0,0,0) 
+# T Pos=(1623,618) ID=8201 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# T Pos=(1710,618) ID=8202 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# Competence 4
+# B Pos=(1803,508) Key=1 Status=1 Size=(100,100) ID=8300 Disp=1 Prio=3 Size_Out=3 Color_Out=(225,225,225,255) Color=(0,0,0,0)
+# T Pos=(1803,618) ID=8301 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# T Pos=(1890,618) ID=8302 Disp=1 Prio=2 Sizechar=15 Color=(255,0,0,255)
+# Description
+T Pos=(37,485) Str="Description :" ID=8302 Disp=1 Prio=2 Sizechar=20 Color=(110,110,110,255)
+T Pos=(207,485) ID=11300 Disp=1 Prio=2 Sizechar=20 Color=(170,170,170,255)
+T Pos=(207,515) ID=11301 Disp=1 Prio=2 Sizechar=20 Color=(170,170,170,255)
+T Pos=(207,545) ID=11302 Disp=1 Prio=2 Sizechar=20 Color=(170,170,170,255)
